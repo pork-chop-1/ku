@@ -1,0 +1,71 @@
+
+
+.top-bar
+{
+    font-size:0;
+    padding:0;
+}
+
+.top-bar li{
+   font-family:"consolas";
+    display: inline;
+}
+
+.top-bar li a:link,.top-bar li a:visited{
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    background-color:rgb(192, 192, 192);
+    padding:15px;
+}
+
+.top-bar li a:hover,.top-bar li a:active{
+    font-size:20px;
+    text-decoration:none;
+    color:rgb(243, 240, 240);
+    background-color:rgb(61, 56, 56);
+    padding:15px;
+}
+
+.sidebar{
+    float:left;
+    font-size:0;
+    padding:0;
+    padding:5px;
+    border:2px solid;
+    height:inherit;
+    /*height:1200px;*/
+}
+
+.sidebar li{
+    padding:5px;
+    font-size:16px;
+    list-style:none;
+}
+
+.sidebar li a:link,.sidebar li a:visited{
+    text-decoration:none;
+    color:black;
+    background-color:rgb(192, 192, 192);
+}
+
+.sidebar li a:hover,.sidebar li a:active{
+    text-decoration:none;
+    color:rgb(243, 240, 240);
+    background-color:rgb(61, 56, 56);
+}
+
+.contain
+{
+    border:2px solid;
+    height:1200px;
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 1200px;
+    text-align: left;
+}

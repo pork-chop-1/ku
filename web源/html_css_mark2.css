@@ -1,0 +1,38 @@
+body
+{
+    background-color:rgb(71, 71, 71);
+    font-family:"consolas";
+    color:white;
+    font-size:15pt;
+    margin:50pt;
+}
+abbr:hover
+{
+    color:rgb(68, 195, 204);
+}
+.abbr_head
+{
+    width:15em;
+    border-color:white;
+    border-style:solid;
+    box-shadow: 0.5em 0.5em 0.5em #7e7878;
+}
+.abbr_list
+{
+    width:25em;
+    border-color:white;
+    border-style:solid;
+    border-radius:3em;
+    padding:1em;
+}
+
+a:link,a:visited
+{
+    color: rgb(223, 247, 9);
+    text-decoration:none;
+}
+a:hover,a:active
+{
+    color:green;
+    text-decoration:none;
+}
